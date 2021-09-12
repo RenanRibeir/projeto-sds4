@@ -1,8 +1,17 @@
-function App() {
+import DataTable from "assets/components/DataTable";
+import Footer from "assets/components/Footer";
+import NavBar from "assets/components/NavBar";
+
+function App() {   
   return (
+    <>
+    <NavBar/>
     <div>
       <h1 className="text-primary">Olá mundo !</h1>
+      <DataTable/>
     </div>
+    <Footer/>
+    </>
   );
 }
 
